@@ -1,8 +1,4 @@
 # delay-queue
-[![Go Report Card](https://goreportcard.com/badge/github.com/ouqiang/delay-queue)](https://goreportcard.com/report/github.com/ouqiang/delay-queue)
-[![Downloads](https://img.shields.io/github/downloads/ouqiang/delay-queue/total.svg)](https://github.com/ouqiang/delay-queue/releases)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ouqiang/delay-queue/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/release/ouqiang/delay-queue.svg?label=Release)](https://github.com/ouqiang/delay-queue/releases)
 
 基于Redis实现的延迟队列, 参考[有赞延迟队列设计](http://tech.youzan.com/queuing_delay)实现
 
@@ -34,10 +30,6 @@
 ## 依赖
 * Redis
 
-## 下载
-[releases](https://github.com/ouqiang/delay-queue/releases)
-
-
 ## 源码安装
 * `go`语言版本1.3+
 * `go get -d github.com/ouqiang/delay-queue`
@@ -47,9 +39,6 @@
 ## 运行
 `./delay-queue -c delay-queue.conf`  
 > HTTP Server监听`0.0.0.0:9277`, Redis连接地址`127.0.0.1:6379`, 数据库编号`1`
-
-## 客户端
-[PHP](https://github.com/ouqiang/delayqueue-php)
 
 ## HTTP接口
 
